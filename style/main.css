@@ -1,3 +1,46 @@
-h1 {
-  color: blue;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  width: 40vw;
+  height: 100vh;
+  padding: 4rem;
+  background-color: #fff;
+  margin: auto;
+}
+
+.user-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cv-adress {
+  width: 60%;
+  height: 100%;
+}
+
+.cv-photo {
+  width: 40%;
+  height: 100%;
+  text-align: right;
+}
+
+.user-info {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.user-common {
+  margin-bottom: 0.15rem;
 }
